@@ -6,13 +6,13 @@ PODS:
   - FirebaseAnalytics (3.8.0):
     - FirebaseCore (~> 3.6)
     - FirebaseInstanceID (~> 1.0)
-    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
   - FirebaseCore (3.6.0):
-    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
   - FirebaseInstanceID (1.0.10):
     - FirebaseCore (~> 3.6)
   - GoogleToolboxForMac/Defines (2.1.1)
-  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+  - "GoogleToolboxForMac/NSData+zlib (2.1.1)":
     - GoogleToolboxForMac/Defines (= 2.1.1)
   - LGSideMenuController (2.1.0)
   - TwitterCore (1.15.3):
@@ -26,6 +26,18 @@ DEPENDENCIES:
   - LGSideMenuController
   - TwitterKit
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Fabric
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - GoogleToolboxForMac
+    - LGSideMenuController
+    - TwitterCore
+    - TwitterKit
+
 SPEC CHECKSUMS:
   Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
   Firebase: 21bf4a89d3f01bfbe11adc3a5d934a4a3d3a5fd6
@@ -37,6 +49,6 @@ SPEC CHECKSUMS:
   TwitterCore: cce24b3c798993ccde72787ea79ea9a478b284e4
   TwitterKit: 43600f2d2848c227739efea5b2939585e69339c3
 
-PODFILE CHECKSUM: 686dff3ebcee9902bfe81f908f47f8918256f285
+PODFILE CHECKSUM: 087e4cceca41e49167ec624b753ff6c77712e321
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.5.2

@@ -2,8 +2,9 @@
 platform :ios, '11.0'
 
 target 'iTransmission' do
-	pod 'Firebase/Core'
 	pod 'Fabric'
-	pod 'TwitterKit'
+	pod 'FBSDKCoreKit'
+	pod 'Firebase/Core'
 	pod 'LGSideMenuController'
+	pod 'TwitterKit'
 end

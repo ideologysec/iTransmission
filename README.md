@@ -1,8 +1,10 @@
-iTransmission 4
+iTransmission
 ==========
-iTransmission is a torrent client, which uses libtransmission as it's backend.
+iTransmission is a torrent app for iOS (iPhone and iPad) which uses libtransmission for a backend.
 
-So, what is iTransmission 4? iTransmission , originally, was developed by [ccp0101](https://github.com/ccp0101). It is no longer kept active. I plan on keeping iTransmision 4 active.
+So, what is iTransmission 4? iTransmission , originally, was developed by [ccp0101](https://github.com/ccp0101). It is no longer kept active. The previous
+
+**UPDATE 2018-05-15:** This is a fork of a fork of a project, that appears to have some incredibly unpleasant and outright broken dependencies. It will not currently compile. I am attempting to refactor or rebuild using this as inspiration; watch this space for changes.
 
 How to compile libraries
 -----
@@ -36,36 +38,13 @@ to
 <string>NO</string>
 ```
 
-Build Script
------
-**Cydia Package**
-
-1. First you need to install macports
-https://www.macports.org/install.php
-
-2. Then you need to install dpkg
-sudo port install dpkg
-
-3. Then build the deb
+2. Alternatively, sign up for a free Apple Developer account, and sign into Xcode; Xcode will manage codesigning for you.
 
 Installation
 -----
-Installation is the easiest part.
-You will need a jailbroken iDevice.
+1. Xcode will deploy the IPA to a device attached to the computer configured for development.
 
-**OPTION I**
-
-1. Put the compiled .app in the /Applications folder of your iDevice.
-2. SSH into your device and execute the following command(without double-quotes):"cd /Applica*/iTransm*;chmod 777 ./iTransmission; cd ~/;"
-
-**OPTION II**
-
-1. Make a folder. Name doesn't matter, but using "iTransmission" here.
-2. Open the folder.
-3. Make a folder named "Payload". Name matters here.
-4. Copy the compiled .app into the Payload folder.
-5. Compress(Zip only) the iTransmission folder to iTransmission.zip
-6. Rename iTransmission.zip to iTransmission.ipa
+2. Manually install the IPA build product via iTunes or Configurator or iMazing, etc.
 
 Credits
 -------

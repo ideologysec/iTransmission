@@ -4,6 +4,7 @@ platform :ios, '11.0'
 target 'iTransmission' do
 	pod 'Fabric'
 	pod 'FBSDKCoreKit'
+	pod 'FBSDKShareKit'
 	pod 'Firebase/Core'
 	pod 'LGSideMenuController'
 	pod 'TwitterKit'

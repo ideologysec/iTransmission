@@ -8,6 +8,8 @@ PODS:
   - Fabric (1.6.11)
   - FBSDKCoreKit (4.33.0):
     - Bolts (~> 1.7)
+  - FBSDKShareKit (4.33.0):
+    - FBSDKCoreKit (~> 4.33.0)
   - Firebase/Core (3.16.0):
     - FirebaseAnalytics (= 3.8.0)
     - FirebaseCore (= 3.6.0)
@@ -31,6 +33,7 @@ PODS:
 DEPENDENCIES:
   - Fabric
   - FBSDKCoreKit
+  - FBSDKShareKit
   - Firebase/Core
   - LGSideMenuController
   - TwitterKit
@@ -40,6 +43,7 @@ SPEC REPOS:
     - Bolts
     - Fabric
     - FBSDKCoreKit
+    - FBSDKShareKit
     - Firebase
     - FirebaseAnalytics
     - FirebaseCore
@@ -53,6 +57,7 @@ SPEC CHECKSUMS:
   Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
   Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
   FBSDKCoreKit: 572b047a7e029bc44542bcf8a59414e7ff2b543e
+  FBSDKShareKit: b7b5002833a4104fbecad75e8e4e082e91c7a08a
   Firebase: 21bf4a89d3f01bfbe11adc3a5d934a4a3d3a5fd6
   FirebaseAnalytics: 920e46455f27b0a52a80907a6d9b73ee4bd1c635
   FirebaseCore: 9691ee2ade70c098d7cf92440f4303f16d83ca75
@@ -62,6 +67,6 @@ SPEC CHECKSUMS:
   TwitterCore: cce24b3c798993ccde72787ea79ea9a478b284e4
   TwitterKit: 43600f2d2848c227739efea5b2939585e69339c3
 
-PODFILE CHECKSUM: cda7684477500b68086d0fa20c5cfafc9e169a9a
+PODFILE CHECKSUM: 12261d3776d1fe1a99d10963613e1d1190e324e2
 
 COCOAPODS: 1.5.2
